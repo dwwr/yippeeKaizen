@@ -13,7 +13,7 @@ class App extends React.Component {
       <div style={{
         backgroundColor: 'blue',
         border: '3px solid blue',
-        height: '100%'
+        minHeight: `100%`
       }}>
         <h1>Yippee Kaizen</h1>
         <Bubble />

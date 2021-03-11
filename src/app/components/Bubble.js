@@ -5,7 +5,8 @@ import {StyledBubble} from './styles/BubbleStyles';
 const Bubble = (props) => {
 
   return (
-    <StyledBubble/>
+    <StyledBubble>
+      </StyledBubble >
   );
 }
 
