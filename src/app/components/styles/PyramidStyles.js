@@ -5,6 +5,7 @@ const StyledPyramid = styled.div`
   height: 200px;
   position: relative;
   margin: 50px;
+  grid-column-start: 2;
   ::before, ::after {
     content: '';
     display: inline-block;
@@ -20,7 +21,7 @@ const StyledPyramid = styled.div`
   ::after {
     border-color: transparent transparent #5500b6 transparent;
     transform: scaleY(2) skewY(40deg) rotate(-45deg);
-  }
+    }
 `;
 
 export {StyledPyramid};

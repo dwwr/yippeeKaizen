@@ -5,7 +5,8 @@ const StyledCube = styled.div`
   width: 100px;
   height: 100px;
   position: relative;
-  grid-column-start: 1;
+  grid-column-start: 3;
+  margin-left: 50px;
 
   ::before {
     content: '';
