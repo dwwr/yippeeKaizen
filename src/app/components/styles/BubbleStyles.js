@@ -6,9 +6,8 @@ const StyledBubble = styled.div`
   width: 80%;
   border: 1px solid black;
   display: grid;
-  grid-template-rows: 2fr 1fr 1fr;
-  grid-template-columns: 1fr 8fr 1fr;
-  align-items: start;
+  grid-template-columns: 1fr 1fr 1fr;
+  align-items: center;
   justify-content: center;
 `;
 
