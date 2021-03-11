@@ -1,4 +1,5 @@
 import React from 'react';
+import Bubble from './components/Bubble';
 
 class App extends React.Component {
   constructor(props) {
@@ -9,7 +10,14 @@ class App extends React.Component {
 
   render () {
     return (
-      <h1>Yippee Kaizen</h1>
+      <div style={{
+        backgroundColor: 'blue',
+        border: '3px solid blue',
+        height: '100%'
+      }}>
+        <h1>Yippee Kaizen</h1>
+        <Bubble />
+      </div>
     );
   }
 };
